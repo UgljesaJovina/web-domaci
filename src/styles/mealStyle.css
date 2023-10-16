@@ -1,0 +1,28 @@
+.meal-container {
+    color: var(--text-color);
+    box-sizing: border-box;
+    padding: 5% 10% 0;
+    line-height: 2;
+}
+
+.meal-container> h5 {
+    opacity: 0.4;
+    font-style: italic;
+    text-align: end;
+}
+
+.meal-info-container {
+    display: flex;
+    margin-top: 5%;
+}
+
+.meal-info-container> img {
+    width: 30%;
+    margin-left: auto;
+    border-radius: 15px;
+}
+
+.meal-info {
+    margin-left: 5%;
+    width: 55%;
+}

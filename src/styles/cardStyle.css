@@ -1,0 +1,61 @@
+.card-holder {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    width: 100%;
+    gap: 5%;
+    justify-items: center;
+}
+
+.card {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 9 / 12;
+    background-size: cover;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.shadow {
+    height: 100%;
+    background: linear-gradient(transparent 20%, rgba(0, 0, 0, 0.7) 60%);
+    background-size: 100% 200%;
+    transition: all 400ms;
+}
+
+.card-content {
+    top: calc(100% - 4rem - 5%);
+    left: 0;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 5%;
+    transition: top 400ms;
+}
+
+.card-content> h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+.card:hover> .card-content {
+    top: 0%;
+    backdrop-filter: blur(5px);
+}
+
+.card:hover> .shadow {
+    background-position-y: 100%;
+}
+
+.card-short-text {
+    font-size: 1.2rem;
+    max-height: auto;
+    overflow: auto;
+}
+
+.average-prep-time {
+    align-self: flex-end;
+    margin-top: auto;
+}

@@ -1,0 +1,6 @@
+.meal-list-container {
+    color: var(--text-color);
+    box-sizing: border-box;
+    padding: 5% 10% 0;
+    line-height: 2;
+}
