@@ -16,7 +16,7 @@ const mainCourses: ICard[] = [
         bgImage: Cevapi,
         name: "Ćevapi",
         shortText: "Klasik Balkanske kuhinje - ćevapi sa lukom i ajvarom.",
-        prepTime: "Priprema: 30 minuta",
+        prepTime: "30 min",
         ingredients: [
             { name: "Mleveno meso (mešavina govedine i svinjetine)", amount: "500g" },
             { name: "Crni luk", amount: "1 glavica" },
@@ -33,7 +33,7 @@ const mainCourses: ICard[] = [
         bgImage: Sarma,
         name: "Sarma",
         shortText: "Tradicionalna sarma punjena mlevenim mesom i kiselim kupusom.",
-        prepTime: "Priprema: 2 sata",
+        prepTime: "2 h",
         ingredients: [
             { name: "Kiseli kupus", amount: "1 glavica" },
             { name: "Mleveno meso (mešavina govedine i svinjetine)", amount: "500g" },
@@ -52,7 +52,7 @@ const mainCourses: ICard[] = [
         bgImage: Moussaka,
         name: "Moussaka",
         shortText: "Grčka moussaka sa plazma keksom.",
-        prepTime: "Priprema: 1,5 sata",
+        prepTime: "1,5 h",
         ingredients: [
             { name: "Mleveno meso (jagnjetina ili junetina)", amount: "500g" },
             { name: "Krompir", amount: "500g" },
@@ -71,7 +71,7 @@ const mainCourses: ICard[] = [
         bgImage: Musaka,
         name: "Musaka",
         shortText: "Musaka sa mesom, krompirom i bešamel sosom.",
-        prepTime: "Priprema: 1,5 sata",
+        prepTime: "1,5 h",
         ingredients: [
             { name: "Mleveno meso (mešavina govedine i svinjetine)", amount: "500g" },
             { name: "Krompir", amount: "800g" },
@@ -90,7 +90,7 @@ const mainCourses: ICard[] = [
         bgImage: Burek,
         name: "Burek",
         shortText: "Tradicionalni burek sa sirom.",
-        prepTime: "Priprema: 1 sat",
+        prepTime: "1 h",
         ingredients: [
             { name: "Kore za pitu", amount: "500g" },
             { name: "Sir (feta)", amount: "200g" },
@@ -108,7 +108,7 @@ const mainCourses: ICard[] = [
         bgImage: Karadjordjeva,
         name: "Karadjordjeva Šnicla",
         shortText: "Šnicla punjena kajmakom i panirana.",
-        prepTime: "Priprema: 45 minuta",
+        prepTime: "45 min",
         ingredients: [
             { name: "Teleća šnicla", amount: "1 komad" },
             { name: "Kajmak", amount: "50g" },
@@ -126,7 +126,7 @@ const mainCourses: ICard[] = [
         bgImage: PohovaniKackavalj,
         name: "Pohovani Kačkavalj",
         shortText: "Pohovani kačkavalj sa tartar sosom.",
-        prepTime: "Priprema: 30 minuta",
+        prepTime: "30 min",
         ingredients: [
             { name: "Kačkavalj", amount: "200g" },
             { name: "Brašno", amount: "100g" },
@@ -144,7 +144,7 @@ const mainCourses: ICard[] = [
         bgImage: Gulas,
         name: "Gulaš",
         shortText: "Goveđi gulaš sa povrćem u bogatom sosu.",
-        prepTime: "Priprema: 2 sata",
+        prepTime: "2 h",
         ingredients: [
             { name: "Goveđi komadići mesa", amount: "500g" },
             { name: "Crni luk", amount: "1 glavica" },
@@ -162,7 +162,7 @@ const mainCourses: ICard[] = [
         bgImage: MakaroneSir,
         name: "Makarone sa Sirom",
         shortText: "Omiljeni obrok - makarone sa topljenim sirom.",
-        prepTime: "Priprema: 20 minuta",
+        prepTime: "20 min",
         ingredients: [
             { name: "Makarone", amount: "250g" },
             { name: "Topljeni sir", amount: "100g" },

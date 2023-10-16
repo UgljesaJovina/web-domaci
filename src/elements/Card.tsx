@@ -16,6 +16,7 @@ const Card: React.FC<{ card: ICard }> = ({ card }) => {
 
     return (
         <div className="card" style={{ backgroundImage: `url(${card.bgImage})` }} onClick={handleClick} >
+            <h1 className="card-name">{card.name}</h1>
             <div className="shadow"></div>
             <div className="card-content">
                 <h1>{card.name}</h1>

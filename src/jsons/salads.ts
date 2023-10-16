@@ -15,7 +15,7 @@ const salads: ICard[] = [
         bgImage: GrckaSalata,
         name: "Grčka Salata",
         shortText: "Osvežavajuća grčka salata sa maslinama i feta sirom.",
-        prepTime: "Priprema: 20 minuta",
+        prepTime: "20 min",
         ingredients: [
             { name: "Paradajz", amount: "2 komada" },
             { name: "Krastavac", amount: "1 komad" },
@@ -35,7 +35,7 @@ const salads: ICard[] = [
         bgImage: CezarSalata,
         name: "Cezar Salata",
         shortText: "Klasika - Cezar salata sa hrskavim piletinom.",
-        prepTime: "Priprema: 30 minuta",
+        prepTime: "30 min",
         ingredients: [
             { name: "Piletina", amount: "300g" },
             { name: "Zelena salata", amount: "1 glavica" },
@@ -54,7 +54,7 @@ const salads: ICard[] = [
         bgImage: TunaSalata,
         name: "Tuna Salata",
         shortText: "Brza i zdrava tuna salata sa povrćem.",
-        prepTime: "Priprema: 15 minuta",
+        prepTime: "15 min",
         ingredients: [
             { name: "Tuna konzerva", amount: "1 komad" },
             { name: "Paradajz", amount: "1 komad" },
@@ -73,7 +73,7 @@ const salads: ICard[] = [
         bgImage: PastaSalata,
         name: "Pasta Salata",
         shortText: "Salata sa kuvanim testeninama, povrćem i sosom od majoneza.",
-        prepTime: "Priprema: 25 minuta",
+        prepTime: "25 min",
         ingredients: [
             { name: "Testenina", amount: "250g" },
             { name: "Paradajz", amount: "2 komada" },
@@ -92,7 +92,7 @@ const salads: ICard[] = [
         bgImage: KrompirSalata,
         name: "Krompir Salata",
         shortText: "Klasika - krompir salata sa jajima i majonezom.",
-        prepTime: "Priprema: 30 minuta",
+        prepTime: "30 min",
         ingredients: [
             { name: "Krompir", amount: "500g" },
             { name: "Jaja", amount: "3 komada" },
@@ -111,7 +111,7 @@ const salads: ICard[] = [
         bgImage: SopskaSalata,
         name: "Šopska Salata",
         shortText: "Tradicionalna šopska salata sa svežim povrćem i sirevima.",
-        prepTime: "Priprema: 15 minuta",
+        prepTime: "15 min",
         ingredients: [
             { name: "Paradajz", amount: "2 komada" },
             { name: "Krastavac", amount: "1 komad" },
@@ -130,7 +130,7 @@ const salads: ICard[] = [
         bgImage: MiksSalata,
         name: "Miks Salata",
         shortText: "Raznovrsna salata sa sezonskim povrćem i susamom.",
-        prepTime: "Priprema: 20 minuta",
+        prepTime: "20 min",
         ingredients: [
             { name: "Zelena salata", amount: "1 glavica" },
             { name: "Paradajz", amount: "2 komada" },
@@ -149,7 +149,7 @@ const salads: ICard[] = [
         bgImage: MaslineFetaSalata,
         name: "Masline i Feta Salata",
         shortText: "Jednostavna i ukusna salata sa maslinama i feta sirom.",
-        prepTime: "Priprema: 15 minuta",
+        prepTime: "15 min",
         ingredients: [
             { name: "Masline", amount: "100g" },
             { name: "Feta sir", amount: "150g" },

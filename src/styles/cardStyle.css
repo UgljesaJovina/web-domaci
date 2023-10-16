@@ -13,6 +13,11 @@
     background-size: cover;
     overflow: hidden;
     cursor: pointer;
+    transition: box-shadow 400ms;
+}
+
+.card:hover {
+    box-shadow: 5px 5px var(--border-color), -5px 5px var(--border-color), 5px -5px var(--border-color), -5px -5px var(--border-color);
 }
 
 .shadow {
@@ -23,7 +28,7 @@
 }
 
 .card-content {
-    top: calc(100% - 4rem - 5%);
+    top: 100%;
     left: 0;
     position: absolute;
     display: flex;
@@ -40,13 +45,26 @@
     margin: 0;
 }
 
+.card-name {
+    position: absolute;
+    font-size: 2.5rem;
+    width: 100%;
+    margin: 0 5%;
+    bottom: 0;
+    transition: opacity 400ms;
+}
+
 .card:hover> .card-content {
     top: 0%;
     backdrop-filter: blur(5px);
 }
 
 .card:hover> .shadow {
-    background-position-y: 100%;
+    background-position-y: 99%;
+}
+
+.card:hover> .card-name {
+    opacity: 0;
 }
 
 .card-short-text {
