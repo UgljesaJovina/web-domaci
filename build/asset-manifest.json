@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/static/css/main.bd33271b.css",
+    "main.js": "/static/js/main.75159b16.js",
+    "static/media/govedja-supa.png": "/static/media/govedja-supa.ab43db909b47d063c417.png",
+    "static/media/masline-feta-salata.png": "/static/media/masline-feta-salata.bea19cd123ef917ab102.png",
+    "static/media/sopska-salata.png": "/static/media/sopska-salata.3009e8d83fcd614fa28f.png",
+    "static/media/tuna-salata.png": "/static/media/tuna-salata.ad0d9b3acfe3ea59d64c.png",
+    "static/media/salad.png": "/static/media/salad.4b72b4d52bdfee60d38a.png",
+    "static/media/brokoli-supa.png": "/static/media/brokoli-supa.28d5a7a4a18b120c7be8.png",
+    "static/media/makarone-sa-sirom.png": "/static/media/makarone-sa-sirom.5dff36c198d084707835.png",
+    "static/media/krompir-salata.png": "/static/media/krompir-salata.6f8609335607e011d79d.png",
+    "static/media/pohovani-kackavalj.png": "/static/media/pohovani-kackavalj.3f1e85e93f0a815a52b4.png",
+    "static/media/soup.png": "/static/media/soup.dc8532dbacd94a4b1c5c.png",
+    "static/media/main-course.png": "/static/media/main-course.48010945fdc4a25f8075.png",
+    "static/media/grasak-supa.png": "/static/media/grasak-supa.8f4593d5e94b6cac8ceb.png",
+    "static/media/grcka-salata.png": "/static/media/grcka-salata.279726d041161ed31741.png",
+    "static/media/gulas.png": "/static/media/gulas.f3443d84e0b74f103fdb.png",
+    "static/media/pasta-salata.png": "/static/media/pasta-salata.81b456da5889917cfed9.png",
+    "static/media/riblja-supa.png": "/static/media/riblja-supa.b68925942462979560a2.png",
+    "static/media/paradajz-supa.png": "/static/media/paradajz-supa.b471ee6b8fed48200708.png",
+    "static/media/cevapi.png": "/static/media/cevapi.de09a77e6c5a9e1d673c.png",
+    "static/media/burek.png": "/static/media/burek.7670a918f9644afe7798.png",
+    "static/media/cezar-salata.png": "/static/media/cezar-salata.c0908a1e8e48407af07a.png",
+    "static/media/teleca-supa.png": "/static/media/teleca-supa.090937908199574c24e6.png",
+    "static/media/pileca-supa.png": "/static/media/pileca-supa.ade5d5480c3655aeea47.png",
+    "static/media/sarma.png": "/static/media/sarma.7e4fa689b137839d3691.png",
+    "static/media/karadjordjeva.png": "/static/media/karadjordjeva.1498882f412c55d16d60.png",
+    "static/media/moussaka.png": "/static/media/moussaka.96bb18b8d17b7271add0.png",
+    "static/media/kopriva-supa.png": "/static/media/kopriva-supa.22c8ce13eab550c1105d.png",
+    "static/media/musaka.png": "/static/media/musaka.4d2adfa270e3f40fd7e3.png",
+    "static/media/miks-salata.png": "/static/media/miks-salata.67a85b27ec1f67572129.png",
+    "index.html": "/index.html",
+    "main.bd33271b.css.map": "/static/css/main.bd33271b.css.map",
+    "main.75159b16.js.map": "/static/js/main.75159b16.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bd33271b.css",
+    "static/js/main.75159b16.js"
+  ]
+}
