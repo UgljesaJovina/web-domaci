@@ -4,13 +4,14 @@ import { Header } from './elements';
 import "./styles/mainStyle.css"
 import { Home, Meal, MealList } from './pages';
 import { library } from '@fortawesome/fontawesome-svg-core';
-import { faClock } from "@fortawesome/free-regular-svg-icons";
+import { faClock, faSnowflake } from "@fortawesome/free-regular-svg-icons";
+import { faXmark } from '@fortawesome/free-solid-svg-icons';
 import { soups } from './jsons/soups';
 import { salads } from './jsons/salads';
 import { mainCourses } from './jsons/mainCourses';
 
 // chat gpt convo sa informacijama za sajt: https://chat.openai.com/share/315ef673-2bf2-4b18-94b4-5b965d129afd
-library.add(faClock);
+library.add(faClock, faSnowflake, faXmark);
 
 function App() {
 	return (
