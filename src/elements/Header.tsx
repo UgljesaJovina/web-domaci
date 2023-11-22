@@ -28,7 +28,7 @@ const Header: React.FC = () => {
                 <NavLink to={"/supe"} className={({ isActive }) => `hyperlink ${isActive ? "current" : ""}`}> Supe</NavLink>
                 <NavLink to={"/salate"} className={({ isActive }) => `hyperlink ${isActive ? "current" : ""}`}>Salate</NavLink>
                 <NavLink to={"/glavna-jela"} className={({ isActive }) => `hyperlink ${isActive ? "current" : ""}`}>Glavna Jela</NavLink>
-                <div className="hyperlink" style={{position: "relative"}} onClick={e => setSnowFlakes(x => !x)} >
+                <div className="hyperlink" style={{position: "relative", cursor: "pointer"}} onClick={e => setSnowFlakes(x => !x)} >
                     <FontAwesomeIcon icon={faSnowflake} />
                     <FontAwesomeIcon icon={faXmark} className={`snowflake-cross ${snowFlakes ? "" : "show"}`} />
                 </div>

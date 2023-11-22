@@ -9,6 +9,7 @@
     --button-color: #FFAB91;
     --border-color: #333333;
     --header-background: #212121;
+    font-size: 18px;
 }
 
 @property --sway {
@@ -109,7 +110,8 @@ body {
     position: absolute;
     color: whitesmoke;
     top: -5%;
-    width: 10px;
+    width: 17px;
+    height: 17px;
     animation: fall var(--falling-speed) linear infinite, 
         rotate var(--rotation-speed) linear infinite;
 }
