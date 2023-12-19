@@ -1,5 +1,5 @@
 import { faSnowflake } from "@fortawesome/free-regular-svg-icons";
-import { faXmark } from "@fortawesome/free-solid-svg-icons";
+import { faXmark, faSun, faMoon } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useState } from "react";
 import { NavLink, Outlet } from "react-router-dom";
@@ -16,12 +16,15 @@ const Header: React.FC = () => {
     );
     
     const [snowFlakes, setSnowFlakes] = useState(true);
+    const [lightMode, setLigthMode] = useState(true);
 
     return (
         <>
-            <div className={`canvas ${snowFlakes ? "show" : ""}`}>
-                {Array.from(Array(200).keys()).map(x => <FontAwesomeIcon key={x} icon={faSnowflake} className="snowflake" style={styles(x)} />)}
-            </div>
+            {snowFlakes ? 
+                <div className="canvas">
+                    {Array.from(Array(200).keys()).map(x => <FontAwesomeIcon key={x} icon={faSnowflake} className="snowflake" style={styles(x)} />)}
+                </div> 
+            : ""}
             <div className="header">
                 <p className="site-name">Jela iz Snova</p>
                 <NavLink to={"/home"} className={({ isActive }) => `hyperlink ${isActive ? "current" : ""}`}>Home</NavLink>
@@ -31,6 +34,10 @@ const Header: React.FC = () => {
                 <div className="hyperlink" style={{position: "relative", cursor: "pointer"}} onClick={e => setSnowFlakes(x => !x)} >
                     <FontAwesomeIcon icon={faSnowflake} />
                     <FontAwesomeIcon icon={faXmark} className={`snowflake-cross ${snowFlakes ? "" : "show"}`} />
+                </div>
+                <div className="hyperlink" style={{position: "relative", cursor: "pointer"}} onClick={e => setSnowFlakes(x => !x)} >
+                    <FontAwesomeIcon icon={faSun} className={`sun ${lightMode ? "show" : ""}`} />
+                    <FontAwesomeIcon icon={faMoon} className={`moon ${!lightMode ? "show" : ""}`} />
                 </div>
             </div>
             <Outlet />

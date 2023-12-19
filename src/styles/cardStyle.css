@@ -1,6 +1,6 @@
 .card-holder {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     width: 100%;
     gap: 5%;
     justify-items: center;
@@ -41,13 +41,13 @@
 }
 
 .card-content> h1 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin: 0;
 }
 
 .card-name {
     position: absolute;
-    font-size: 2.5rem;
+    font-size: 2rem;
     width: 100%;
     margin: 0 5%;
     bottom: 0;
@@ -68,7 +68,7 @@
 }
 
 .card-short-text {
-    font-size: 1.2rem;
+    font-size: 1rem;
     max-height: auto;
     overflow: auto;
 }
