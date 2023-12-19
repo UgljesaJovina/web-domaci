@@ -4,6 +4,7 @@
     width: 100%;
     gap: 5%;
     justify-items: center;
+    color: var(--card-text-color);
 }
 
 .card {

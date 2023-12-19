@@ -1,14 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@300&display=swap');
 
 :root {
-    --primary-background: #121212;
-    --secondary-background: #1E1E1E;
-    --text-color: #FFFFFF;
-    --accent-color: #FF6E40;
-    --link-color: #40C4FF;
-    --button-color: #FFAB91;
-    --border-color: #333333;
-    --header-background: #212121;
     font-size: 18px;
 }
 
@@ -22,6 +14,31 @@ body {
     margin: 0;
     font-family: 'Epilogue', sans-serif;
     background-color: var(--primary-background);
+    --card-text-color: #FFFFFF;
+}
+
+body.dark {
+    --primary-background: #121212;
+    --secondary-background: #1E1E1E;
+    --text-color: #FFFFFF;
+    --accent-color: #FF6E40;
+    --link-color: #40C4FF;
+    --button-color: #FFAB91;
+    --border-color: #333333;
+    --header-background: #212121;
+    --snowflake-color: #FFFFFF;
+}
+
+body.light {
+    --primary-background: #FFFFFF;
+    --secondary-background: #F5F5F5;
+    --text-color: #333333;
+    --accent-color: #FF6E40;
+    --link-color: #007BFF;
+    --button-color: #007BFF;
+    --border-color: #CCCCCC;
+    --header-background: #F0F0F0;
+    --snowflake-color: #c2c460;
 }
 
 #root {
@@ -57,7 +74,7 @@ body {
     align-items: stretch;
     font-size: 1.35rem;
     width: 100%;
-    height: 3rem;
+    height: 3.25rem;
     background-color: var(--header-background);
     color: var(--text-color);
     box-sizing: border-box;
@@ -65,18 +82,19 @@ body {
     z-index: 1;
 }
 
-.header> p {
+.header>p {
     margin: 0;
     color: var(--accent-color);
     margin-right: auto;
-    padding: calc((3rem - 1.35rem) / 2) 0;
+    padding: calc((3.25rem - 2rem) / 2) 0;
+    font-size: 2rem;
 }
 
 .hyperlink {
     text-decoration: none;
     color: inherit;
     transition: all .3s;
-    padding: calc((3rem - 1.35rem) / 2) 3%;
+    padding: calc((3.25rem - 1.35rem) / 2) 2%;
     box-sizing: border-box;
 }
 
@@ -100,11 +118,11 @@ body {
 
 .snowflake {
     position: absolute;
-    color: whitesmoke;
+    color: var(--snowflake-color);
     top: -5%;
     width: 17px;
     height: 17px;
-    animation: fall var(--falling-speed) linear infinite, 
+    animation: fall var(--falling-speed) linear infinite,
         rotate var(--rotation-speed) linear infinite;
 }
 
@@ -125,22 +143,27 @@ body {
 
 .sun {
     opacity: 0;
-    color: white;
+    color: var(--text-color);
     position: absolute;
     top: 50%;
     left: 50%;
     translate: -50% -50%;
-    translate: all .5s;
+    transition: all .5s;
 }
 
 .moon {
     opacity: 0;
-    color: black;
+    color: var(--text-color);
     position: absolute;
     top: 50%;
     left: 50%;
     translate: -50% -50%;
-    translate: all .5s;
+    transition: all .5s;
+}
+
+.sun.show,
+.moon.show {
+    opacity: 1;
 }
 
 @keyframes fall {
@@ -148,6 +171,7 @@ body {
         top: -5%;
         transform: translateX(0px);
     }
+
     100% {
         top: 100%;
         translate: var(--sway) 0;
